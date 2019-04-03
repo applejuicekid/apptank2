@@ -6,7 +6,7 @@ import { Timeline } from 'react-twitter-widgets'
 // Timeline = require('react-twitter-widgets').Timeline
 
 class SocialMedia extends Component {
-  constructor() {
+  constructor () {
     super();
     this.state = {
       persons: {}
