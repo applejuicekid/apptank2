@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../css/Shop.css';
 
 export default class Shop extends Component {
-  render() {
+  render () {
     return (
       <div id="shop">
 
