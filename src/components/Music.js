@@ -56,6 +56,4 @@ class Music extends Component {
    }
  }
 
-
-
 export default Music;
