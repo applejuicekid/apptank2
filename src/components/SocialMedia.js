@@ -5,8 +5,6 @@ import axios from 'axios'
 import { Timeline } from 'react-twitter-widgets'
 // Timeline = require('react-twitter-widgets').Timeline
 
-
-
 class SocialMedia extends Component {
   constructor() {
     super();
