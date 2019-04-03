@@ -1,0 +1,168 @@
+
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 786px) {
+    * {
+        text-align:center;
+    }
+    .NavBar {
+      display:flex;
+      flex-direction: column;
+      font-size:2em;
+      position:sticky;
+      top:0;
+      width:100%;
+    }
+
+    .NavBar a:hover
+    {
+      background-color:#222;
+    }
+
+    .aboutText {
+      position:static;
+      top: 120px;
+      right: 75px;
+      width:100%;
+      border: solid 5px #42e2f4;
+      border-radius: 7px;
+    }
+
+    /* MUSIC MEDIA QUERY*/
+
+    .musicMain {
+      display: block;
+      flex-direction:column;
+      background-image:url('https://wallpapersfit.com/wp-content/uploads/data/2017/11/26/DJ-Khaled-Wallpapers-HD-In-High-Definition-1WC200955.jpg');
+      background-repeat:repeat-y;
+    }
+    /*spotify logo*/
+    .musicLogo {
+      height: 75px;
+      width: 150px;
+      position: static;
+      left: auto;
+      top: auto;
+      display:none;
+      background: black;
+      border: solid #65D36E;
+      border-radius: 7px;
+    }
+
+    .youtubeLogo {
+      height: 75px;
+      width: 150px;
+      position: static;
+      right: 290px;
+      top: 150px;
+      display:none;
+      background: black;
+      border: solid #CD3E33;
+      border-radius: 7px;
+    }
+
+    .youtubeKhaled {
+      position:static;
+      width:100%;
+    }
+
+    .musicKhaled {
+      width: 100%;
+      height: 100%;
+      padding-top: 10px;
+    }
+
+
+    .spotify {
+      display:block;
+      top: auto;
+      width: 100%;
+      height: 350px;
+      position: static;
+      border: solid 5px #65D36E;
+      border-radius: 7px;
+    }
+
+    #Itunes {
+      /*background-image:url('https://i.imgur.com/1dpP2z7.jpg');*/
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-size:cover;
+    }
+
+
+    #reactsx,#reactsx ul,#reactsx ul li {
+      /*background:rgba(255,255,255,0.1);*/
+      background:none;
+      /*color:#000;*/
+      padding:0.2em;
+      text-align:left;
+      list-style:none;
+    }
+
+
+    /* ABOUT */
+
+    #about {
+      width:100%;
+      position:static;
+      background-color:green;
+    }
+
+    .bio {
+      position:relative;
+      width:100%;
+      top:auto;
+      right:auto;
+      background-size:cover;
+      }
+
+    .aboutText {
+      width:auto;
+      position: static;
+      display:block;
+      border: solid 5px #42e2f4;
+      border-radius: 7px;
+    }
+
+    /* ITUNES */
+
+    #Itunes {
+       background-image:url('https://s3.amazonaws.com/hiphopdx-production/2017/06/DJ-Khaled-4-by-Mike-Lavin-@thehomelesspimp-1-800x600.jpg');
+       width:auto;
+    }
+
+    #reactsx {
+      border: solid 5px #42e2f4;
+      border-radius: 7px;
+      background-color:black;
+      margin:auto;
+      width:auto;
+    }
+
+    /*SHOP*/
+
+    #shop {
+      text-align:center;
+      margin:0;
+    }
+
+    .box {
+      text-align:center;
+      margin-left:99px;
+    }
+
+    .one{
+      display:none;
+    }
+    .two{
+      display:none;
+    }
+
+    .three{
+      text-align:center;
+      margin:0;
+    }
+
+}
