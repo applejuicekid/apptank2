@@ -4,7 +4,7 @@ import "../css/About.css";
 
 class About extends Component {
 
-  render() {
+  render () {
     return (
       <div id="about">
         <div className="bio">
