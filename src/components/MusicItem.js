@@ -3,7 +3,7 @@ import '../css/componentcss.css';
 
 class MusicItem extends Component {
 
-  render() {
+  render () {
     return (
       <li className={this.props.explicit}>{this.props.name}
         <ul>
